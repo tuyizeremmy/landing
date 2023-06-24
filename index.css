@@ -1,0 +1,135 @@
+.navigation{
+    background-color: #1f2937;
+    padding: 30PX;
+    padding-left: 200px;
+    
+}
+
+.nav{
+    display: flex;
+    color: #ffffff;
+    
+}
+
+.link{
+    align-items: flex-start;
+
+}
+
+
+.describution
+{
+    color: #ffffff;
+    display: flex; 
+    
+}
+
+.car img{
+    align-content: center;
+    height: 250px;
+    width: 400px;
+    border: 40px;
+    border-color: black;
+    
+    padding-left: 300px;
+
+}
+
+
+.body-one{
+    text-align: center;
+    background-color: white;
+    
+}
+
+.flex{
+    display: flex;
+    padding-left: 150px;
+}
+
+.one img{
+    align-content: center;
+    height: 250px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+.two img{
+    align-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 150px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+.tree img{
+    align-content: center;
+    padding-top: 50px;
+    height: 160px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+.four img{
+    align-content: center;
+    padding-top: 50px;
+    height: 150px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+
+
+.body-tree{
+    background-color: #e5e7eb;
+    color: black;
+    height: 100px;
+    padding-top: 15px;
+    text-align: center;
+    
+    
+}
+
+
+.body-four{
+    background-color: white;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    padding-left: 250px;
+    color: rgb(255, 255, 255);
+}
+
+.action{
+    background-color: #0945a7ee;
+    height: 100px;
+    width: 800px;
+    border-radius: 5px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.action button{
+    background-color: #0945a7ee;
+    border: 1px;
+    border-color: white;
+    color: #ffffff;
+    border-radius: 5px;
+    align-content: right;
+    padding-right: 30px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
