@@ -1,135 +1,148 @@
+/*navigation*/
 .navigation{
-    background-color: #1f2937;
-    padding: 30PX;
-    padding-left: 200px;
-    
+    background-color:#1f2937;
+    height: 400px;
 }
-
 .nav{
+    color:#1f2937;
+    text-decoration: none;
     display: flex;
-    color: #ffffff;
-    
 }
-
+.logo{
+    size: 24px;
+    color:#f9faf8;
+    padding-left: 80px;
+}
 .link{
-    align-items: flex-start;
-
+    padding-left: 480px;
+    padding-top: 20px;
+}
+.link a{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
 }
 
-
-.describution
-{
-    color: #ffffff;
-    display: flex; 
-    
-}
-
-.car img{
-    align-content: center;
-    height: 250px;
-    width: 400px;
-    border: 40px;
-    border-color: black;
-    
-    padding-left: 300px;
-
-}
-
-
-.body-one{
-    text-align: center;
-    background-color: white;
-    
-}
-
-.flex{
+.main{
+    padding-top: 40px;
+    padding-left: 80px;
     display: flex;
-    padding-left: 150px;
 }
 
+.main-word h2{
+    font-size: 28px;
+    color:#f9faf8;
+    padding-top: 20px;
+}
+.main-word p{
+    size: 18px;
+    color:#f9faf8;
+    padding-top: 20px;
+}
+.submit-1{
+    color: white;
+    background-color:#3882f6;
+    border-radius: 5px;
+    height: 30px;
+    width: 100;
+    
+}
+.car img{
+    padding-left: 90px;
+    padding-bottom: 20px;
+    height: 280px;
+    width:400px;
+}
+
+
+/*lever two*/
+.body-two{
+    
+    text-align: center;
+    align-items: center;
+    
+}
+.flex{padding-top: 20px;
+    display: flex;
+    gap: 3rem;
+    padding-left: 100px;
+}
 .one img{
-    align-content: center;
-    height: 250px;
-    width: 250px;
-    border: 40px;
-    border-color: black;
-    border-radius: 20%;
+    height: 100px;
+    width: 80px;
 }
 .two img{
-    align-content: center;
-    padding-top: 50px;
-    padding-left: 50px;
-    height: 150px;
-    width: 250px;
-    border: 40px;
-    border-color: black;
-    border-radius: 20%;
+    height: 100px;
+    width: 100px;
 }
 .tree img{
-    align-content: center;
-    padding-top: 50px;
-    height: 160px;
-    width: 250px;
-    border: 40px;
-    border-color: black;
-    border-radius: 20%;
+    height: 100px;
+    width: 100px;
 }
 .four img{
-    align-content: center;
-    padding-top: 50px;
-    height: 150px;
-    width: 250px;
-    border: 40px;
-    border-color: black;
-    border-radius: 20%;
+    height: 100px;
+    width: 100px;
 }
 
 
-
+/*lever tree*/
 .body-tree{
-    background-color: #e5e7eb;
-    color: black;
-    height: 100px;
-    padding-top: 15px;
+    height: 200px;
+    background-color:#e5e7eb;
+    
+}
+.body-tree p{
+    padding-top: 30px;
+    font-size: 26px;
+    color: #1f2937;
     text-align: center;
     
-    
+}
+.strong{
+    padding-left: 650px;
 }
 
 
+/*lever four*/
 .body-four{
     background-color: white;
-    display: flex;
-    height: 200px;
-    align-items: center;
-    padding-left: 250px;
-    color: rgb(255, 255, 255);
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 100px;
 }
 
 .action{
-    background-color: #0945a7ee;
-    height: 100px;
-    width: 800px;
-    border-radius: 5px;
-    padding-left: 100px;
-    display: flex;
-}
-
-.action button{
-    background-color: #0945a7ee;
-    border: 1px;
-    border-color: white;
-    color: #ffffff;
-    border-radius: 5px;
-    align-content: right;
-    padding-right: 30px;
-}
-
-.footer{
-    background-color: #1f2937;
-    height: 50px;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
     
+    background-color:#3882f6;
+    height: 90px;
+    width: 700px;
+    color: white;
+    display: flex;
+    padding-left: 100px;
+
 }
+.sub-action p{
+    font-size: 13px;
+}
+.signup{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.submit-2{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 50px;
+    width: 150;
+    border: solid;
+}
+
+/*lever footer*/
+.footer{
+    background-color:#1f2937;
+    height: 60px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
